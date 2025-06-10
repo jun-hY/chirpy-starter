@@ -227,3 +227,12 @@ jekyll-archives:
 
 plugins:
   - jekyll-target-blank
+  
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
